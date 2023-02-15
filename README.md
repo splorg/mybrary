@@ -4,8 +4,14 @@ Uma aplicação fullstack no padrão MVC onde um usuário pode cadastrar livros 
 
 Desenvolvido com:
 - Node.js e Express
+- Mongoose
 - MongoDB
 
 Disponível em: https://mybrary-bgnm.onrender.com/
 
-Para executar esse projeto, é necessário clonar o repositório, executar o comando `npm run start`, e acessar http://localhost:3000. (É necessário um arquivo .env com a variável DATABASE_URL para o link de um banco de dados MongoDB)
+## Como executar o projeto:
+
+- clone o repositório
+- adicione um arquivo .env com a variável DATABASE_URL para o link de um banco de dados MongoDB
+- execute o comando `npm i`
+- execute o comando `npm run start` e acesse http://localhost:3000
